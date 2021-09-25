@@ -1,0 +1,17 @@
+.card{
+    color: black;
+}
+.container{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@media (max-width:700px) {
+    .second-row{
+        margin-top: 3px !important;
+    }
+    
+   
+}

@@ -1,0 +1,38 @@
+
+
+.container{
+    
+    padding: 2% 5%;
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.img-thumbnail{
+    border-style: none  !important;
+}
+.icons a{
+    display: inline-block ;
+    margin-left: 5%;
+    
+}
+.icons a li{
+    text-decoration: none;
+}
+ 
+@media (max-width:768px){
+    .img-fluid {
+       
+        
+        align-items: center;
+        margin-top: 25%;
+        
+    }
+    
+    .container{
+        padding-top: 15%;
+        
+    }
+    
+}
+

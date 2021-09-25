@@ -1,0 +1,24 @@
+.card{
+    max-width: 690px ;
+    /* padding: 2% 3%; */
+    width: 5% 90%;
+}
+@media (max-width:740px) {
+    .card{
+        /* max-width: 690px ; */
+        /* padding: 2% 3%; */
+        width:  90%;
+        
+        
+    }
+    img{
+        height: 20%;
+        width:20%;
+        order: 0;
+        
+    }
+    .second-box{
+        margin-top: 1px !important;
+    }
+    
+}
