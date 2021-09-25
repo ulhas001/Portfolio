@@ -20,11 +20,12 @@ const About = () => {
     return (
         <>
         <motion.div initial="out" animate="in" exit="out" variants= {pagevairant} transition={pageTransition}>
-        <h1 className="text-center">A B O U T</h1>
-        <section className="container ">
+        <h1 className="text-center ">A B O U T</h1>
+        <section className="container">
+        
             <div className="row ">
                 <div className="col-lg-6 col-md-12">
-                    <img src={me} alt="" className="img-fluid" />
+                    <img src={me} alt="" className="img-fluid rounded mt-0" />
                 </div>
                 <div className="col-lg-6 col-md-12 mt-5 text-center">
                     <p className="text-start"> I am Ulhas Bhalerao. Currently pursuing Computer Engineering B.Tech Degree in Lonavala 

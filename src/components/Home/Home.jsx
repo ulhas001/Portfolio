@@ -32,7 +32,7 @@ const Home = () => {
             <div className="icons">
               <a href="https://github.com/ulhas001" target="_blank"><i class="github fab fa-github fa-3x"></i></a>
               <a href="https://www.linkedin.com/in/ulhas-bhalerao-44171a1b9/"><i class="fab fa-linkedin-in fa-3x"></i></a>
-              <a href=""><i class="fab fa-instagram fa-3x"></i></a>
+              <a href="https://www.instagram.com/ulhas_bhalerao/"><i class="fab fa-instagram fa-3x"></i></a>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 text-center ">

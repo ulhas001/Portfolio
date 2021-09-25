@@ -26,9 +26,9 @@ const Skills = () => {
   return (
     <>
     <motion.div initial="out" animate="in" exit="out" variants= {pagevairant} transition={pageTransition}>
-    <h1 className="text-center">S K L L S</h1>
-      <section className="container p-5 mb-5 bg-body rounded ">
-      
+    
+      <section className="container p-4 mb-5 bg-body rounded ">
+      <h1 className="text-center">S K L L S</h1>
         <div className="row ">
           <div className="col-lg-6 col-md-12  d-flex flex-column container">
             <Skillscard img={img1} title="Python" percent={{ width: "90%" }} />

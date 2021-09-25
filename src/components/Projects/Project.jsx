@@ -26,7 +26,7 @@ const Project = () => {
     <>
       <motion.div initial="out" animate="in" exit="out" variants= {pagevairant} transition={pageTransition}>
         <section className="container text-center">
-          <h1 className="text-center mb-3">P R O J E C T S </h1>
+          <h1 className="text-center mb-5">P R O J E C T S </h1>
           <div className="row ms-4">
             <div className="col-lg-4 col-md-12 mt-2 ">
               <Cards

@@ -22,8 +22,9 @@ const Contact = () => {
   return (
     <>
     <motion.div initial="out" animate="in" exit="out" variants= {pagevairant} transition={pageTransition}>
-    <h1 className="text-center mb-3">C O N T A C T M E</h1>
+    
       <section className="container shadow-lg p-5 mb-4 bg-body rounded ">
+      <h1 className="text-center ">C O N T A C T M E</h1>
       <div className="row">
         <div className="col-lg-6 col-md-6 ">
         <img src={img} className='img-fluid ' alt="" />
